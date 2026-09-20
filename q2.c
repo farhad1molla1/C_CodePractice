@@ -11,6 +11,6 @@ int main()
     minutes=(seconds%3600)/60;
     rem_sec=seconds%60;
 
-    printf("Formatted Time: %d hour : %d minute : %d second",hours,minutes,rem_sec);
+    printf("Formatted Time: %d hour , %d minute , %d\n second",hours,minutes,rem_sec);
 return 0;
 }
